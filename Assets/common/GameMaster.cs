@@ -41,6 +41,7 @@ public class GameMaster : MonoBehaviour
         SceneManager.LoadScene("titleScene");
     }
 
+    
     public void Menu(){
         Time.timeScale = 0;
         menuPanel.SetActive(true);
