@@ -9,5 +9,9 @@ public class TitleGameMaster : MonoBehaviour
     public void GoToGameScene(){
         SceneManager.LoadScene("gameScene");
     }
+    public void GoToLevelMenu(){
+        SceneManager.LoadScene("levelMenu");
+    }
+
 
 }
